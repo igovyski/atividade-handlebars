@@ -1,0 +1,69 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para o título do cabeçalho */
+header h1 {
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a lista de produtos */
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para cada item de produto */
+main h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+main p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Estilos para links */
+main a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilos para links ao passar o mouse */
+main a:hover {
+    text-decoration: underline;
+}
+
+main img {
+    max-width: 100%; /* Garantir que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Manter a proporção da imagem */
+}
